@@ -58,10 +58,52 @@ const numbers=[3,4,5,6,7,8];
 // 2.do somethin with the Data
 // 3. store them into a new array
 
-// const newArray=numbers.map(element=>element*element);
-// console.log(newArray);
+/* const newArray=numbers.map(element=>element*element);
+console.log(newArray); */
 
-// 3.Arrow function
-// const a=10;
-// const resultDouble=a=>a*a;
-// console.log(resultDouble(a));
+/* 3.Arrow function 
+const a=10;
+const resultDouble=a=>a*a;
+console.log(resultDouble(a)); */
+
+
+/* 4.filter function
+const newArray=numbers.filter(element=>element>5);
+console.log(newArray); */
+
+/* // 5.find function
+
+const result=numbers.find(num=>num>5);
+console.log(result); */
+
+// 6. map function with object
+
+/* const array=[
+    {id:21, name:"Anik"},
+    {id:22, name:"Shazu"},
+    {id:23, name:"pinky"}
+];
+
+const nameArray=[];
+
+array.forEach(element => {
+   nameArray.push(element.name);
+});
+
+console.log(nameArray); */
+
+const array=[
+    {id:21, name:"Anik"},
+    {id:22, name:"Shazu"},
+    {id:23, name:"pinky"}
+];
+
+/* const arrayMap=array.map(element=>element.name);
+console.log(arrayMap); */
+
+/* const arrayFilter=array.filter(element=>element.id>21);
+console.log(arrayFilter);
+ */
+
+const arrayFind=array.find(element=>element.id>21);
+console.log(arrayFind);
